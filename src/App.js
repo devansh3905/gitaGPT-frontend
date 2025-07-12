@@ -32,6 +32,16 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-indigo-100 to-purple-100 flex flex-col items-center p-4">
+    <img
+        src="/krishnaGPT.png"
+        alt="Krishna"
+        className="absolute left-0 top-0 h-full w-[430px] object-cover opacity-80 z-0"
+      />
+      <img
+        src="/arjunGpt.jpg"
+        alt="Arjuna"
+        className="absolute right-0 top-0 h-full w-[430px] object-cover opacity-80 z-1"
+      />
       <div className="text-3xl font-semibold mb-4">🕉️ Krishna GPT</div>
       <div className="bg-white rounded-xl shadow-md w-full max-w-2xl flex flex-col p-4 space-y-2 h-[70vh] overflow-y-auto">
         {messages.map((msg, index) => (
