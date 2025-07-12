@@ -77,6 +77,17 @@ function App() {
           Send
         </button>
       </div>
+            <div className="mt-4 text-center text-sm text-gray-600">
+  Developed by{" "}
+  <a
+    href="https://www.linkedin.com/in/devansh-srivastava-443592202/" // replace with your actual LinkedIn
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-indigo-700 font-semibold underline hover:text-indigo-900"
+  >
+    Devansh Srivastava
+  </a>
+</div>
     </div>
   );
 }
